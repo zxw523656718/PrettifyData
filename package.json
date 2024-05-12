@@ -1,6 +1,6 @@
 
 {
-  "name": "simple-data-format",
+  "name": "PrettifyData",
   "version": "1.0.0",
   "description": "A simple library for formatting data like currencies and dates.",
   "main": "index.js",
