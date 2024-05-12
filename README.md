@@ -14,9 +14,48 @@ npm install prettify-data
 
 ## Usage
 
-```javascript
-import { formatCurrency, formatDate } from 'prettify-data';
+Usage
+Below are some examples of how to use the library:
 
-console.log(formatCurrency(1000, 'USD')); // $1,000.00
-console.log(formatDate('2024-01-01')); // 1/1/2024
+Formatting Currency
+javascript
+复制代码
+import { formatCurrency } from 'simple-data-format';
+
+console.log(formatCurrency(1000, 'USD')); // Outputs: $1,000.00
+Formatting Date
+javascript
+复制代码
+import { formatDate } from 'simple-data-format';
+
+console.log(formatDate('2024-01-01')); // Outputs: 1/1/2024
+Formatting Time
+javascript
+复制代码
+import { formatTime } from 'simple-data-format';
+
+console.log(formatTime('13:20')); // Outputs: 1:20 PM
+Formatting Percent
+javascript
+复制代码
+import { formatPercent } from 'simple-data-format';
+
+console.log(formatPercent(0.123)); // Outputs: 12.3%
+Abbreviating Numbers
+javascript
+复制代码
+import { numberAbbreviator } from 'simple-data-format';
+
+console.log(numberAbbreviator(1500)); // Outputs: 1.5K
+Using Chain Formatter
+javascript
+复制代码
+import { ChainFormatter } from 'simple-data-format';
+
+const result = new ChainFormatter(1000)
+  .formatCurrency('USD')
+  .formatPercent()
+  .getResult();
+
+console.log(result); // Outputs: $1,000.00
 ```
