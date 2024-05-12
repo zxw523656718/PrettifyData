@@ -7,3 +7,5 @@ const numberAbbreviator = (number, locale = 'en-US') => {
   }
   return `${Number(number.toFixed(1))}${suffixes[suffixIndex] || ''}`;
 };
+
+export default numberAbbreviator;
