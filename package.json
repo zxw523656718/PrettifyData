@@ -1,5 +1,5 @@
 {
-  "name": "PrettifyData",
+  "name": "prettify-data",
   "version": "1.0.0",
   "description": "Effortlessly format currencies and dates for any locale with this lightweight JavaScript library.",
   "main": "index.js",
