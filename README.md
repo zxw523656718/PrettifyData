@@ -8,13 +8,13 @@ This library provides simple formatting for currencies and dates.
 ## Installation
 
 ```
-npm install PrettifyData
+npm install prettify-data
 ```
 
 ## Usage
 
 ```javascript
-import { formatCurrency, formatDate } from 'simple-data-format';
+import { formatCurrency, formatDate } from 'prettify-data';
 
 console.log(formatCurrency(1000, 'USD')); // $1,000.00
 console.log(formatDate('2024-01-01')); // 1/1/2024
