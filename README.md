@@ -8,7 +8,7 @@ This library provides simple formatting for currencies and dates.
 ## Installation
 
 ```
-npm install simple-data-format
+npm install PrettifyData
 ```
 
 ## Usage
