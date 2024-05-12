@@ -1,12 +1,16 @@
-
 {
   "name": "PrettifyData",
   "version": "1.0.0",
-  "description": "A simple library for formatting data like currencies and dates.",
+  "description": "Effortlessly format currencies and dates for any locale with this lightweight JavaScript library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Your Name",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["formatting", "currency", "date", "locale"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxw523656718/PrettifyData.git"
+  }
 }
